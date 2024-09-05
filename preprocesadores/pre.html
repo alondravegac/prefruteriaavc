@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>preperocesadores</title>
+</head>
+<body bgcolor="#ffccff">
+    <!-- Encabezado -->
+    <table width="100%" bgcolor="#ffcccc">
+        <tr>
+            <td width="20%">
+                <img src="media/ruta-fresca.jpg" alt="" width="200" height="200" style="border: 3px solid #ff9999;">
+            </td>
+            <td>
+                <center>
+                    <p>
+                        <h3><font color="red" size="5">VENTA DE FRUTAS</font></h3>
+                    </p>
+                    <p>
+                        <h1><font color="darkgreen" size="8">NUTRIFRUTY</font></h1>
+                    </p>
+                </center>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Navegación -->
+    <table width="100%" bgcolor="#cc3333">
+        <tr height="40">
+            <td width="30%" style="color: white; text-align: center;"><font size="5">Inicio</font></td>
+            <td width="40%" style="color: white; text-align: center;"><font size="5">Servicios</font></td>
+            <td width="30%" style="color: white; text-align: center;"><font size="5">Productos</font></td>
+        </tr>
+    </table>
+
+    <!-- Contenido principal -->
+    <table width="100%">
+        <tr>
+            <td colspan="2" bgcolor="#fff2cc">
+                <!-- Texto "COMPRA YA!" -->
+                <table width="100%" height="400">
+                    <tr>
+                        <td colspan="2">
+                            <marquee behavior="alternate">
+                                <h1><font color="blue" size="10">COMPRA YA!</font></h1>
+                            </marquee>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="media/reciclar-cajas-fresas.jpg" alt="" height="300px" width="400px" style="border: 5px solid #ff9966;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="media/Pineapple.webp" alt="" height="300px" width="400px" style="border: 5px solid #ff9966;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="media/naranja.png" alt="" height="300px" width="400px" style="border: 5px solid #ff9966;">
+                        </td>
+                    </tr>
+                </table>
+            
+            <td>
+                <!-- Formulario -->
+                <form>
+                    <fieldset style="border: 2px solid #cc66ff; padding: 10px;">
+                        <legend style="color: #cc66ff;">INGRESA TUS DATOS</legend>
+                        <label for="name">Nombre </label><br>
+                        <input type="text" id="name" name="name" style="width: 100%;"><br>
+
+                        <label for="email">Correo </label><br>
+                        <input type="text" id="email" name="email" style="width: 100%;"><br>
+
+                        <label for="pass">Contraseña </label><br>
+                        <input type="text" id="pass" name="pass" style="width: 100%;"><br>
+
+                        <label for="naci">Fecha nacimiento </label><br>
+                        <input type="date" id="naci" name="naci" style="width: 100%;"><br>
+
+                        <label for="cv">Ingresa tu currículum </label><br>
+                        <input type="file" id="cv" name="cv" style="width: 100%;"><br>
+
+                        <label>Comentario </label><br>
+                        <textarea name="comentario" id="comentario" cols="40" rows="5" style="width: 100%;"></textarea><br>
+                    </fieldset>
+
+                    <fieldset style="border: 2px solid #66cc66; padding: 10px;">
+                        <legend style="color: #66cc66;">Elige tipo de pago</legend><br>
+                        <select name="pago" id="pago" style="width: 100%;">
+                            <option value="contado">Contado</option>
+                            <option value="credito">Crédito</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset style="border: 2px solid #66cc66; padding: 10px;">
+                        <legend style="color: #66cc66;">Elige el tipo de fruta</legend><br>
+                        <select name="fruta" id="fruta" style="width: 100%;">
+                            <option value="piña">piña</option>
+                            <option value="manzana">manzana</option>
+                            <option value="pera">pera</option>
+                            <option value="naranja">naranja</option>
+                            <option value="fresa">fresa</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset style="border: 2px solid #063ef5; padding: 10px;">
+                        <legend style="color: #9300e9;">Satisfacción por la atención</legend><br>
+                        <input type="checkbox" id="bueno"> <label for="bueno">Bueno</label><br>
+                        <input type="checkbox" id="regular"> <label for="regular">Regular</label><br>
+                        <input type="checkbox" id="malo"> <label for="malo">Malo</label><br>
+                    </fieldset>
+
+                    <!-- Botones Enviar y Borrar -->
+                    <input type="submit" value="Enviar" style="background-color: #4CAF50; color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;">
+                    <input type="reset" value="Borrar" style="background-color: #f44336; color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;">
+                </form>
+            </td>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Pie de página -->
+    <table width="100%" bgcolor="#cc99ff">
+        <tr>
+            <td align="center">
+                <font color="white" size="4" face="Arial">© 2024 Nutrifruty. Todos los derechos reservados. <br>
+                creado por: Alondra Vega</font>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
