@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrifrut</title>
+</head>
+<body>
+    <!-- Encabezado con tablas -->
+    <table width="100%" border="1" cellpadding="10">
+        <tr bgcolor="#ffcccc">
+            <td width="20%">
+                <!-- Imagen de la empresa -->
+                <center><img src="media/organica-.avif" alt="Logo de Nutrifruty" width="200" height="200"></center>
+            </td>
+            <td>
+                <!-- Título de la empresa -->
+                <h1><font size="8" color="darkgreen">NUTRIFRUT</font></h1>
+                <p><font size="5" color="red">Calidad y variedad - venta al por mayor</font></p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Barra de Navegación -->
+    <table width="100%" bgcolor="#FA8072" border="1" cellpadding="10">
+        <tr height="50">
+            <!-- Columna 1: Inicio -->
+            <td width="30%">
+                <center>
+                    <a href="#inicio">
+                        <font size="5" color="white">
+                            <b><i>Inicio</i></b>
+                        </font>
+                        <br>
+                        <marquee behavior="scroll" direction="right" scrollamount="3">
+                            ¡Bienvenidos!
+                        </marquee>
+                    </a>
+                </center>
+            </td>
+
+            <!-- Columna 2: Servicios -->
+            <td width="40%">
+                <center>
+                    <a href="#servicios">
+                        <font size="5" color="white">
+                            <b><i>Servicios</i></b>
+                        </font>
+                        <br>
+                        <marquee behavior="scroll" direction="left" scrollamount="3">
+                            Consulta nuestros servicios
+                        </marquee>
+                    </a>
+                </center>
+            </td>
+
+            <!-- Columna 3: Productos -->
+            <td width="30%">
+                <center>
+                    <a href="#productos">
+                        <font size="5" color="white">
+                            <b><i>Productos</i></b>
+                        </font>
+                        <br>
+                        <marquee behavior="scroll" direction="right" scrollamount="3">
+                            Explora nuestros productos
+                        </marquee>
+                    </a>
+                </center>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Contenido principal -->
+    <table width="100%">
+        <tr>
+            <td colspan="2" bgcolor="#fff2cc">
+                <table width="100%" height="400">
+                    <tr>
+                        <td colspan="2">
+                            <!-- Texto "COMPRA YA!" -->
+                            <marquee behavior="alternate">
+                                <h1><font color="blue" size="10">COMPRA YA!</font></h1>
+                            </marquee>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <center><img src="media/naranja.png" alt="" height="250" width="400" border="5" style="border-color: #ff9966;"></center>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <!-- Formulario -->
+                <form>
+                    <fieldset border="2" bordercolor="#cc66ff">
+                        <legend><font color="#cc66ff">Realiza tu pedido</font></legend>
+                        <label for="name">Nombre del cliente</label><br>
+                        <input type="text" id="name" name="name" size="50"><br>
+
+                        <label for="email">Correo</label><br>
+                        <input type="text" id="email" name="email" size="50"><br>
+
+                        <label for="direccion">Dirección</label><br>
+                        <input type="text" id="direccion" name="direccion" size="50"><br>
+
+                        <label>Comentario</label><br>
+                        <textarea name="comentario" id="comentario" cols="40" rows="5"></textarea><br>
+                    </fieldset>
+
+                    <fieldset border="2" bordercolor="#66cc66">
+                        <legend><font color="#66cc66">Elige tipo de pago</font></legend><br>
+                        <select name="pago" id="pago" size="1">
+                            <option value="contado">Contado</option>
+                            <option value="credito">Crédito</option>
+                            <option value="transferencia">Transferencia</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset border="2" bordercolor="#ffcc00">
+                        <legend><font color="#ffcc00">Satisfacción por la atención</font></legend><br>
+                        <input type="checkbox" id="bueno"> <label for="bueno">Bueno</label><br>
+                        <input type="checkbox" id="regular"> <label for="regular">Regular</label><br>
+                        <input type="checkbox" id="malo"> <label for="malo">Malo</label><br>
+                    </fieldset>
+
+                    <!-- Botones Enviar y Borrar -->
+                    <input type="submit" value="Enviar" bgcolor="#4CAF50" color="white">
+                    <input type="reset" value="Borrar" bgcolor="#f44336" color="white">
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Pie de página -->
+    <table width="100%" bgcolor="#cc99ff">
+        <tr>
+            <td>
+                <font color="white" size="4" face="Arial">
+                    <center>© 2024 Nutrifruty. Todos los derechos reservados. <br> creado por: Alondra Vega</center>
+                </font>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
